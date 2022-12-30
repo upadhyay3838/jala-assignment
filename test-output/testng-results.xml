@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="16" passed="0" failed="3" skipped="13">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-30T14:11:22Z" name="Suite" finished-at="2022-12-30T14:12:05Z" duration-ms="43286">
+    <groups>
+    </groups>
+    <test started-at="2022-12-30T14:11:22Z" name="Test" finished-at="2022-12-30T14:12:05Z" duration-ms="43286">
+      <class name="testcase.HandleMultipleTabs_004">
+        <test-method is-config="true" signature="browser()[pri:0, instance:testcase.HandleMultipleTabs_004@1c32386d]" started-at="2022-12-30T19:42:05Z" name="browser" finished-at="2022-12-30T19:42:05Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="MultipleTabs()[pri:0, instance:testcase.HandleMultipleTabs_004@1c32386d]" started-at="2022-12-30T19:42:05Z" name="MultipleTabs" finished-at="2022-12-30T19:42:05Z" duration-ms="3" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultipleTabs -->
+      </class> <!-- testcase.HandleMultipleTabs_004 -->
+      <class name="testcase.Autocomplete_007">
+        <test-method is-config="true" signature="browser()[pri:0, instance:testcase.Autocomplete_007@5d5f10b2]" started-at="2022-12-30T19:42:05Z" name="browser" finished-at="2022-12-30T19:42:05Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="autocomplete()[pri:0, instance:testcase.Autocomplete_007@5d5f10b2]" started-at="2022-12-30T19:42:05Z" name="autocomplete" finished-at="2022-12-30T19:42:05Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autocomplete -->
+      </class> <!-- testcase.Autocomplete_007 -->
+      <class name="testcase.links_012">
+        <test-method is-config="true" signature="browser()[pri:0, instance:testcase.links_012@5cde6747]" started-at="2022-12-30T19:42:05Z" name="browser" finished-at="2022-12-30T19:42:05Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="links()[pri:0, instance:testcase.links_012@5cde6747]" started-at="2022-12-30T19:42:05Z" name="links" finished-at="2022-12-30T19:42:05Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- links -->
+      </class> <!-- testcase.links_012 -->
+      <class name="testcase.Sub_Menus_006">
+        <test-method is-config="true" signature="browser()[pri:0, instance:testcase.Sub_Menus_006@5023bb8b]" started-at="2022-12-30T19:42:05Z" name="browser" finished-at="2022-12-30T19:42:05Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="Sub_Menus()[pri:0, instance:testcase.Sub_Menus_006@5023bb8b]" started-at="2022-12-30T19:42:05Z" name="Sub_Menus" finished-at="2022-12-30T19:42:05Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sub_Menus -->
+      </class> <!-- testcase.Sub_Menus_006 -->
+      <class name="testcase.Single_Menus_005">
+        <test-method is-config="true" signature="browser()[pri:0, instance:testcase.Single_Menus_005@13d73fa]" started-at="2022-12-30T19:42:05Z" name="browser" finished-at="2022-12-30T19:42:05Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="Single_Menus()[pri:0, instance:testcase.Single_Menus_005@13d73fa]" started-at="2022-12-30T19:42:05Z" name="Single_Menus" finished-at="2022-12-30T19:42:05Z" duration-ms="3" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Single_Menus -->
+      </class> <!-- testcase.Single_Menus_005 -->
+      <class name="testcase.loginTest_001">
+        <test-method is-config="true" signature="browser()[pri:0, instance:testcase.loginTest_001@3212a8d7]" started-at="2022-12-30T19:41:22Z" name="browser" finished-at="2022-12-30T19:41:32Z" duration-ms="10425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:testcase.loginTest_001@3212a8d7]" started-at="2022-12-30T19:41:32Z" name="login" data-provider="credentials" finished-at="2022-12-30T19:41:32Z" duration-ms="30" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[training@jalaacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jobprogram]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.log4j.Logger.info(Object)" because "testcase.loginTest_001.log" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.log4j.Logger.info(Object)" because "testcase.loginTest_001.log" is null
+	at testcase.loginTest_001.login(loginTest_001.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="browser()[pri:0, instance:testcase.loginTest_001@3212a8d7]" started-at="2022-12-30T19:41:32Z" name="browser" finished-at="2022-12-30T19:41:39Z" duration-ms="6427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:testcase.loginTest_001@3212a8d7]" started-at="2022-12-30T19:41:39Z" name="login" data-provider="credentials" finished-at="2022-12-30T19:41:39Z" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.log4j.Logger.info(Object)" because "testcase.loginTest_001.log" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.log4j.Logger.info(Object)" because "testcase.loginTest_001.log" is null
+	at testcase.loginTest_001.login(loginTest_001.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="browser()[pri:0, instance:testcase.loginTest_001@3212a8d7]" started-at="2022-12-30T19:41:39Z" name="browser" finished-at="2022-12-30T19:41:50Z" duration-ms="11832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:testcase.loginTest_001@3212a8d7]" started-at="2022-12-30T19:41:50Z" name="login" data-provider="credentials" finished-at="2022-12-30T19:41:50Z" duration-ms="5" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.log4j.Logger.info(Object)" because "testcase.loginTest_001.log" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.log4j.Logger.info(Object)" because "testcase.loginTest_001.log" is null
+	at testcase.loginTest_001.login(loginTest_001.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="qutbr()[pri:0, instance:testcase.loginTest_001@3212a8d7]" started-at="2022-12-30T19:42:05Z" name="qutbr" finished-at="2022-12-30T19:42:05Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qutbr -->
+      </class> <!-- testcase.loginTest_001 -->
+      <class name="testcase.serarchEmp_Duplicate_0014">
+        <test-method is-config="true" signature="browser()[pri:0, instance:testcase.serarchEmp_Duplicate_0014@6399551e]" started-at="2022-12-30T19:42:05Z" name="browser" finished-at="2022-12-30T19:42:05Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="serarchEmp_DuplicateEntry()[pri:0, instance:testcase.serarchEmp_Duplicate_0014@6399551e]" started-at="2022-12-30T19:42:05Z" name="serarchEmp_DuplicateEntry" finished-at="2022-12-30T19:42:05Z" duration-ms="2" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serarchEmp_DuplicateEntry -->
+      </class> <!-- testcase.serarchEmp_Duplicate_0014 -->
+      <class name="testcase.AlertBox_011">
+        <test-method is-config="true" signature="browser()[pri:0, instance:testcase.AlertBox_011@3e30646a]" started-at="2022-12-30T19:42:05Z" name="browser" finished-at="2022-12-30T19:42:05Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="alertBox()[pri:0, instance:testcase.AlertBox_011@3e30646a]" started-at="2022-12-30T19:42:05Z" name="alertBox" finished-at="2022-12-30T19:42:05Z" duration-ms="7" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertBox -->
+      </class> <!-- testcase.AlertBox_011 -->
+      <class name="testcase.Uploading_Downloadingimage_009">
+        <test-method is-config="true" signature="browser()[pri:0, instance:testcase.Uploading_Downloadingimage_009@1e0f9063]" started-at="2022-12-30T19:42:05Z" name="browser" finished-at="2022-12-30T19:42:05Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="image()[pri:0, instance:testcase.Uploading_Downloadingimage_009@1e0f9063]" started-at="2022-12-30T19:42:05Z" name="image" finished-at="2022-12-30T19:42:05Z" duration-ms="2" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- image -->
+      </class> <!-- testcase.Uploading_Downloadingimage_009 -->
+      <class name="testcase.PopupWindow_010">
+        <test-method is-config="true" signature="browser()[pri:0, instance:testcase.PopupWindow_010@7642df8f]" started-at="2022-12-30T19:42:05Z" name="browser" finished-at="2022-12-30T19:42:05Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="popup()[pri:0, instance:testcase.PopupWindow_010@7642df8f]" started-at="2022-12-30T19:42:05Z" name="popup" finished-at="2022-12-30T19:42:05Z" duration-ms="5" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popup -->
+      </class> <!-- testcase.PopupWindow_010 -->
+      <class name="testcase.Slider_009">
+        <test-method is-config="true" signature="browser()[pri:0, instance:testcase.Slider_009@53bd8fca]" started-at="2022-12-30T19:42:05Z" name="browser" finished-at="2022-12-30T19:42:05Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="slider()[pri:0, instance:testcase.Slider_009@53bd8fca]" started-at="2022-12-30T19:42:05Z" name="slider" finished-at="2022-12-30T19:42:05Z" duration-ms="2" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider -->
+      </class> <!-- testcase.Slider_009 -->
+      <class name="testcase.Collapsible_008">
+        <test-method is-config="true" signature="browser()[pri:0, instance:testcase.Collapsible_008@74c79fa2]" started-at="2022-12-30T19:42:05Z" name="browser" finished-at="2022-12-30T19:42:05Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="Collapsible()[pri:0, instance:testcase.Collapsible_008@74c79fa2]" started-at="2022-12-30T19:42:05Z" name="Collapsible" finished-at="2022-12-30T19:42:05Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Collapsible -->
+      </class> <!-- testcase.Collapsible_008 -->
+      <class name="testcase.searchEmp_003">
+        <test-method is-config="true" signature="browser()[pri:0, instance:testcase.searchEmp_003@79351f41]" started-at="2022-12-30T19:42:05Z" name="browser" finished-at="2022-12-30T19:42:05Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="searchEmployee()[pri:0, instance:testcase.searchEmp_003@79351f41]" started-at="2022-12-30T19:42:05Z" name="searchEmployee" finished-at="2022-12-30T19:42:05Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchEmployee -->
+      </class> <!-- testcase.searchEmp_003 -->
+      <class name="testcase.employee_create_002">
+        <test-method is-config="true" signature="browser()[pri:0, instance:testcase.employee_create_002@6fe1b4fb]" started-at="2022-12-30T19:41:50Z" name="browser" finished-at="2022-12-30T19:41:50Z" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'DESKTOP-LU8C54V', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'DESKTOP-LU8C54V', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:311)
+	at Jala_base.base.browser(base.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'DESKTOP-LU8C54V', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:91)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	... 28 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at org.apache.http.impl.conn.LoggingInputStream.read(LoggingInputStream.java:87)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:143)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="create_Employee()[pri:0, instance:testcase.employee_create_002@6fe1b4fb]" started-at="2022-12-30T19:42:05Z" name="create_Employee" finished-at="2022-12-30T19:42:05Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_Employee -->
+      </class> <!-- testcase.employee_create_002 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

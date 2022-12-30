@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="testcase.links_012">
+        <methods>
+          <include name="links"/>
+        </methods>
+      </class> <!-- testcase.links_012 -->
+      <class name="testcase.Single_Menus_005">
+        <methods>
+          <include name="Single_Menus"/>
+        </methods>
+      </class> <!-- testcase.Single_Menus_005 -->
+      <class name="testcase.Collapsible_008">
+        <methods>
+          <include name="Collapsible"/>
+        </methods>
+      </class> <!-- testcase.Collapsible_008 -->
+      <class name="testcase.HandleMultipleTabs_004">
+        <methods>
+          <include name="MultipleTabs"/>
+        </methods>
+      </class> <!-- testcase.HandleMultipleTabs_004 -->
+      <class name="testcase.serarchEmp_Duplicate_0014">
+        <methods>
+          <include name="serarchEmp_DuplicateEntry"/>
+        </methods>
+      </class> <!-- testcase.serarchEmp_Duplicate_0014 -->
+      <class name="testcase.PopupWindow_010">
+        <methods>
+          <include name="popup"/>
+        </methods>
+      </class> <!-- testcase.PopupWindow_010 -->
+      <class name="testcase.Slider_009">
+        <methods>
+          <include name="slider"/>
+        </methods>
+      </class> <!-- testcase.Slider_009 -->
+      <class name="testcase.searchEmp_003">
+        <methods>
+          <include name="searchEmployee"/>
+        </methods>
+      </class> <!-- testcase.searchEmp_003 -->
+      <class name="testcase.AlertBox_011">
+        <methods>
+          <include name="alertBox"/>
+        </methods>
+      </class> <!-- testcase.AlertBox_011 -->
+      <class name="testcase.Uploading_Downloadingimage_009">
+        <methods>
+          <include name="image"/>
+        </methods>
+      </class> <!-- testcase.Uploading_Downloadingimage_009 -->
+      <class name="testcase.employee_create_002">
+        <methods>
+          <include name="create_Employee"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testcase.employee_create_002 -->
+      <class name="testcase.loginTest_001">
+        <methods>
+          <include name="login" invocation-numbers="0 1 2"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testcase.loginTest_001 -->
+      <class name="testcase.Sub_Menus_006">
+        <methods>
+          <include name="Sub_Menus"/>
+        </methods>
+      </class> <!-- testcase.Sub_Menus_006 -->
+      <class name="testcase.Autocomplete_007">
+        <methods>
+          <include name="autocomplete"/>
+        </methods>
+      </class> <!-- testcase.Autocomplete_007 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
